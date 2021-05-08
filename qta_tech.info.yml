@@ -1,0 +1,14 @@
+type: theme
+base theme: classy
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+name: 'QTA TECH THEME'
+description: 'Qta tech theme solution to create complex and varied website'
+package: 'Custom'
+
+
+libraries:
+    - qta_tech/bootstrap-cdn
+    - qta_tech/font-awesome
+    - qta_tech/global-styling 
