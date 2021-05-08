@@ -4,4 +4,116 @@
 */
 
 
+ header.foe-header {
+    background-color: transparent !important;
+}
+
+header.foe-header,  header.foe-header {
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.article-header>div {
+    position: relative;
+    z-index: 2;
+    margin-top: 1rem;
+}
+
+body {
+    margin: 0;
+    font-family: "Libre Franklin",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6b6b6f;
+    text-align: left;
+    background-color: #f3f3f7;
+}
+
+
+.foe-header {
+    border: 0;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    z-index: 900 !important;
+    background-color: #232f4a;
+    transition: background-color 250ms ease-in-out,background-position 250ms ease-in-out,box-shadow 250ms ease-in-out,padding 250ms ease-in-out;
+}
+
+
+.article-header h1 {
+    color: #f3f3f7 !important;
+    text-shadow: 0 0 3px #232f4a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.12;
+}
+
+.article-header {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 470px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.foe-logo {
+    float: left;
+    clear: left;
+    width: auto;
+    height: 40px;
+    padding: 0;
+    z-index: 10;
+    transition: opacity 250ms ease-in-out,height 250ms ease-in-out,margin-top 250ms ease-in-out,margin-bottom 250ms ease-in-out;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
+
+@media (min-width: 768px)
+ .foe-logo {
+    width: auto;
+    max-width: none;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+@media (max-width: 1023.98px)
+.display-1 {
+    font-size: 2.28571rem !important;
+    line-height: 1.05;
+}
+
+
+@media (min-width: 768px)
+
+ header.foe-header {
+    width: 55%;
+}
+
+
+@media (max-width: 1023.98px)
+.foe-header {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    overflow: hidden;
+}
+                                                                                              116,1         Bot
 
