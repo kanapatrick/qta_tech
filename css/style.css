@@ -4,11 +4,11 @@
 */
 
 
- header.foe-header {
+.foe-header {
     background-color: transparent !important;
 }
 
-header.foe-header,  header.foe-header {
+.foe-header,  .foe-header {
     top: 0;
     position: absolute;
     width: 100%;
@@ -85,35 +85,43 @@ body {
 
 
 
-@media (min-width: 768px)
- .foe-logo {
+@media (min-width: 768px){
+   .foe-logo {
     width: auto;
     max-width: none;
     height: 48px;
     margin-top: 16px;
     margin-bottom: 16px;
+}     
 }
 
 
-@media (max-width: 1023.98px)
-.display-1 {
+
+@media (max-width: 1023.98px){
+ .display-1 {
     font-size: 2.28571rem !important;
     line-height: 1.05;
+}   
+    
 }
 
 
-@media (min-width: 768px)
-
- header.foe-header {
+@media (min-width: 768px){
+    .foe-header {
     width: 55%;
+} 
 }
 
 
-@media (max-width: 1023.98px)
-.foe-header {
+
+
+@media (max-width: 1023.98px){
+  .foe-header {
     padding-left: 15px !important;
     padding-right: 15px !important;
     overflow: hidden;
+}    
 }
-                                                                                              116,1         Bot
+
+                                                                                           
 

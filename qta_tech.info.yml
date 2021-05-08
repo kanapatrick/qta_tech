@@ -6,7 +6,17 @@ core_version_requirement: ^8 || ^9
 name: 'QTA TECH THEME'
 description: 'Qta tech theme solution to create complex and varied website'
 package: 'Custom'
-
+ 
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  footer: 'Footer'
 
 libraries:
     - qta_tech/bootstrap-cdn
