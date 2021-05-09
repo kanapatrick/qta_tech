@@ -3,22 +3,13 @@
     Author     : kana
 */
 
-
-.foe-header {
-    background-color: transparent !important;
-}
-
-.foe-header,  .foe-header {
-    top: 0;
-    position: absolute;
-    width: 100%;
-}
-
-.article-header>div {
-    position: relative;
-    z-index: 2;
-    margin-top: 1rem;
-}
+.foe-logo {
+    width: auto;
+    max-width: none;
+    height: 48px;
+    margin-top: 5px;
+    margin-bottom: 200px;
+} 
 
 body {
     margin: 0;
@@ -71,21 +62,8 @@ body {
     margin-bottom: 0;
 }
 
-.foe-logo {
-    float: left;
-    clear: left;
-    width: auto;
-    height: 40px;
-    padding: 0;
-    z-index: 10;
-    transition: opacity 250ms ease-in-out,height 250ms ease-in-out,margin-top 250ms ease-in-out,margin-bottom 250ms ease-in-out;
-    margin-top:10px;
-    margin-bottom: 10px;
-}
 
-
-
-@media (min-width: 768px){
+@media (max-width: 768px){
    .foe-logo {
     width: auto;
     max-width: none;
@@ -93,6 +71,16 @@ body {
     margin-top: 16px;
     margin-bottom: 16px;
 }     
+}
+
+@media (max-width: 540px){
+   .foe-logo {
+    width: auto;
+    max-width: none;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+} 
 }
 
 
