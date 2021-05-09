@@ -121,7 +121,9 @@
 
                 </div>  
                 <div class="col-12">
-                    {{ page.content.qta_tech_content }}
+                    {% if content %}
+                        {{ content.content.field_webform }}
+                    {% endif %}
                 </div>
                 <form class="col-12">
                     <div class="form-group">
